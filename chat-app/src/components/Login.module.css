@@ -1,0 +1,38 @@
+.loginPage {
+    background-color: #f7f7f7;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginCard {
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(120, 120, 120, .2);
+}
+
+.loginCard h2 {
+    color: #1c59c9;
+    margin-bottom: 2rem;
+}
+
+.loginGoogle {
+    display: flex;
+    align-items: center;
+    background-color: #1c59c9;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s ease-in;
+}
+
+.loginGoogle:hover {
+    background-color: #153f8f;
+}
+
+.loginGoogle img {
+    margin-right: 5px;
+}

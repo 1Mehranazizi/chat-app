@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #eeeeee;
+}
+
+.logo {
+    color: #9323f5;
+}
+
+.logOut {
+    color: #fff;
+    background: linear-gradient(90deg , #9323f5 , #42057c);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 20px rgba(66, 5, 124, 0.534);
+}
+
+.logOut:hover {
+    background: linear-gradient(90deg , #5e189c , #32035e);
+}
